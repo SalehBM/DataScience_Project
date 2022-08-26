@@ -1,0 +1,30 @@
+<tr>
+    <th class="text-center">{{course.id}}</th>
+    <td class="text-center">{{course.name}}</td>
+    <td class="text-center">{{course.start_date}}</td>
+    <td class="text-center">{{course.end_date}}</td>
+	  <td class="text-center"><a style="text-decoration: underline;" href="/submissions{{course.id}}">{{course.submissions}}</a></td>
+    <td class="text-center"><a style="text-decoration: underline;" href="/trainess{{course.id}}">{{course.num_trainees}}</a></td>
+    <td class="text-center">{{course.diffculty}}</td>
+    <td class="text-center">{{course.instructor}}</td>
+    <td class="text-center">{{course.status}}</td>
+
+    <td class="text-center"><a href="/validate{{course.id}}"><button
+      class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+    ><svg
+        class="w-7 h-7"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 16 16"
+        stroke="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+          d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"
+        />
+      </svg>
+    </button></a></td>
+ </tr>
