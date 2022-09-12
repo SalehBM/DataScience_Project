@@ -14,6 +14,10 @@ Build a model that can determine the score for each submission based on the info
 ## Dataset
 There are not similar dataset for this project so we decided to generate new dataset with real values.
 
+## Screenshots
+![DS-Project](https://user-images.githubusercontent.com/80198620/189666764-44ae2d36-6a64-4de4-98fe-7b90851e6176.jpg)
+
+
 ## Contributors
 - Saleh bin Mohammed Alsaeed
 - Hamad Abdullah Albaqi
